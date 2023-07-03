@@ -1,0 +1,62 @@
+{
+  "wallet-assets": [
+    {
+      "asset_id": "asset1",
+      "wallet_id": "wallet1",
+      "shares": "1000",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "Asset": {
+        "id": "asset1",
+        "price": "100",
+        "symbol": "A1"
+      }
+    },
+    {
+      "asset_id": "asset2",
+      "wallet_id": "wallet1",
+      "shares": "5000",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "Asset": {
+        "id": "asset2",
+        "price": "200",
+        "symbol": "A2"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "id": "order1",
+      "wallet_id": "wallet1",
+      "asset_id": "asset1",
+      "shares": 1000,
+      "partial": "",
+      "price": 100,
+      "type": "BUY",
+      "status": "OPEN",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "Asset": {
+        "id": "asset1",
+        "symbol": "A1"
+      }
+    },
+    {
+      "id": "order2",
+      "wallet_id": "wallet1",
+      "asset_id": "asset1",
+      "shares": 500,
+      "partial": "",
+      "price": 100,
+      "type": "SELL",
+      "status": "OPEN",
+      "created_at": "2023-01-01T00:00:00Z",
+      "updated_at": "2023-01-01T00:00:00Z",
+      "Asset": {
+        "id": "asset1",
+        "symbol": "A1"
+      }
+    }
+  ]
+}
